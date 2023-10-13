@@ -1,0 +1,28 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title> Mouseover function in javascript </title>  
+<style>  
+#demoDIV {  
+border: 1px solid black;  
+}  
+#datas {  
+color: gree;  
+}  
+</style>  
+</head>  
+<body>  
+<h2> JavaScript Mouse over Method </h2>  
+<p id = "datas"> </p>  
+<div id = "demoDIV" onmouseover = "demoDIVFunction()">  
+The javascript mouse over event works to place a pointer or move the pointer on the particular tag. It is a mouse event to handle functionality with the pointer.  
+</div>  
+<script>  
+function demoDIVFunction() {  
+document.getElementById("datas").innerHTML = "JavaScript Mouse Over Method activates successfully!!!";  
+document.getElementById("demoDIV").style.fontSize = "20px";  
+document.getElementById("demoDIV").style.color = "blue";  
+}  
+</script>  
+</body>  
+</html> 
